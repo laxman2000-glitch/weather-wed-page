@@ -29,10 +29,10 @@ function Header() {
       </h1>
       <h2>
       <span style={{color:"red"}}><b>WEATHER</b></span>| 
-      <span style={{color:"whitesmoke"}}>FORECAST</span>| 
+      <span style={{color:"whitesmoke"}}>CLOUD</span>| 
       <span style={{color:"purple"}}>TEMPERATURE</span>  | 
       <span style={{color:"orange"}}>HUMIDITY</span> | 
-      <span style={{color:"blue"}}>ATMOSPHERE</span></h2>
+      <span style={{color:"blue"}}>WIND</span></h2>
     </div>
   )
 }

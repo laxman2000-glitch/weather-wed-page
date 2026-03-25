@@ -229,10 +229,10 @@ h2{
   border: 2px solid;
   border-radius: 20px;
   text-align: center;
-  background-color: rgb(60, 51, 51);
+  background-color: rgba(211, 23, 23, 0.636);
 }
 .country{
-  color: rgba(199, 178, 178, 0.958);
+  color: rgba(207, 109, 109, 0.958);
   color: black;
   display: flexbox;
   position: fixed;
@@ -243,7 +243,7 @@ h2{
   border: 2px solid;
   border-radius: 20px;
   text-align: center;
-  background-color: rgb(60, 51, 51);
+  background-color: rgba(250, 213, 213, 0.573);
 }
 
 
