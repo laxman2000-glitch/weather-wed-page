@@ -1,0 +1,251 @@
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+h1{
+  color-scheme: unset;
+}
+.firstInput{
+  color: black;
+  display: flexbox;
+  position: fixed;
+  top:50%;
+  left:40%;
+  right:25%
+}
+.firstInput input{
+  padding: 10px;
+  width: 50vh;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background: transparent;
+}
+.second{
+  color: rgb(0, 0, 0);
+  display: flexbox;
+  position: fixed;
+  top:40%;
+  left:60%;
+  right:25%
+}
+.second input{
+  padding: 10px;
+  width: 40vh;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background: rgba(116, 112, 40, 0.414);
+}
+.greet{
+  color: rgba(199, 178, 178, 0.958);
+  color: black;
+  display: flexbox;
+  position: fixed;
+  top:30%;
+  left:60%;
+  right:25%;
+  padding: 5px;
+  width: 60vh;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(60, 51, 51);
+}
+.image{
+  background-image: url('./assets/icebar.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+.table1{
+  color: rgb(9, 1, 1);
+  display: flexbox;
+  position: absolute;
+  top:50%;
+  padding: 10px;
+  width: 150vh;
+  right:10%;
+  left:14%;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(50, 44, 44);
+  background-image: url('./assets/icebar.jpg');
+}
+.table1 th{
+  color:aliceblue;
+  padding: 5px;
+  padding: 5px;
+  width: 10vh;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(107, 93, 93);
+  background-image: url('./assets/image1.jpg')
+
+}
+.table2{
+  color: rgba(246, 240, 240, 0.958);
+  display: flexbox;
+  position: absolute;
+  top:70%;
+  padding: 10px;
+  width: 150vh;
+  right:10%;
+  left:14%;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(50, 44, 44);
+  background-image: url('./assets/image2.jpg');
+}
+.table2 th{
+  padding: 5px;
+  padding: 5px;
+  width: 10vh;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-image: url('./assets/image1.jpg')
+
+}
+.table3{
+  color: rgba(246, 240, 240, 0.958);
+  display: flexbox;
+  position: absolute;
+  top:90%;
+  padding: 10px;
+  width: 150vh;
+  right:10%;
+  left:14%;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(50, 44, 44);
+  background-image: url('./assets/image1.jpg')
+}
+.table3 th{
+  padding: 5px;
+  padding: 5px;
+  width: 10vh;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(107, 93, 93);
+  background-image: url('./assets/icebar.jpg')
+
+}
+.submit{
+  border: 3px solid rgb(14, 11, 11);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  cursor: pointer;
+  position: absolute;       /* position relative to viewport */
+  top: 80%;                 /* center vertically */
+  left: 50%; 
+  
+  }
+h3{
+  color:rgb(0, 0, 0);
+}
+.header-box {
+  width: 90%;
+  max-width: 1200px;
+  height: 10vh;
+  margin: 20px auto;         
+  padding: 20px 40px;        
+  background: rgb(0, 0, 0); 
+  backdrop-filter: blur(10px);         
+  border-radius: 20px;     
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 5px;
+  left:10%;
+  text-align: top;
+}
+
+.header-box h1 {
+  font-size: 3rem;
+  color: #fff;
+  position: relative;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 2px;
+  color: rgb(237, 228, 228);
+  display: flexbox;
+  position: fixed;
+  left: 30%;
+  right:35%;
+  top: 30px;
+}
+h2{
+  text-align:right;
+  color: black;
+  position: absolute;
+  top: 55%;
+  display: inline-flex;
+  gap: 20px;
+  font-family:'Georgia', 'Times New Roman', serif;
+  font-size: 22px;
+}
+.temperature{
+  width: 90%;
+  max-width: 1200px;
+  height: 10vh;
+  margin: 20px auto;         
+  padding: 20px 40px;        
+  background: rgba(136, 182, 99, 0.142); 
+  backdrop-filter: blur(10px);         
+  border-radius: 20px;     
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 5px;
+  text-align: top;
+}
+.city{
+  color: rgba(199, 178, 178, 0.958);
+  color: black;
+  display: flexbox;
+  position: fixed;
+  top:30%;
+  right:60%;
+  padding: 5px;
+  width: 60vh;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(60, 51, 51);
+}
+.country{
+  color: rgba(199, 178, 178, 0.958);
+  color: black;
+  display: flexbox;
+  position: fixed;
+  top:40%;
+  right:60%;
+  padding: 5px;
+  width: 60vh;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(60, 51, 51);
+}
+
+
+
+
